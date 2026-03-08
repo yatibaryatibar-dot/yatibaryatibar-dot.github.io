@@ -1,0 +1,56 @@
+baseURL = 'https://yatibaryatibar-dot.github.io/'
+languageCode = 'zh-CN'
+title = 'Vincent'
+theme = 'PaperMod'
+
+[params]
+  author = 'Vincent'
+  description = '清风明月无人管，并作南楼一味凉'
+  defaultTheme = 'light'
+  disableThemeToggle = true
+  ShowReadingTime = false
+  ShowShareButtons = false
+  ShowPostNavLinks = false
+  ShowBreadCrumbs = false
+  ShowCodeCopyButtons = false
+  ShowWordCount = false
+  ShowRssButtonInSectionTermList = false
+  UseHugoToc = false
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  [params.homeInfoParams]
+    Title = "Vincent"
+    Content = "清风明月无人管，并作南楼一味凉"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yatibaryatibar-dot"
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    identifier = 'daily'
+    name = 'Daily'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About'
+    url = '/about/'
+    weight = 30
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[pagination]
+  pagerSize = 10
