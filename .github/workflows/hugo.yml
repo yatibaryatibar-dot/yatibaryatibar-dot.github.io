@@ -33,6 +33,11 @@ jobs:
         with:
           submodules: recursive
           fetch-depth: 0
+      - name: Debug
+        run: |
+          ls -la
+          ls -la themes/
+          cat hugo.toml
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
