@@ -24,9 +24,10 @@ theme = 'PaperMod'
   showtoc = false
   tocopen = false
 
-  [params.homeInfoParams]
-    Title = "Vincent"
-    Content = "清风明月无人管，并作南楼一味凉"
+  [params.profileMode]
+    enabled = true
+    title = "Vincent"
+    subtitle = "清风明月无人管，并作南楼一味凉"
 
   [[params.socialIcons]]
     name = "github"
